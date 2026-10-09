@@ -1,7 +1,7 @@
 # ICT251 Activity 3 — Interactive Personal Website
 
 **Student:** Latif Chilala  
-**Programme:** Cybersecurity  
+**Programme:** Computer science
 **Course:** ICT251 Web Technologies  
 **Institution:** Mulungushi University
 
