@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latif Chilala's personal student portfolio for ICT251 Web Technologies at Mulungushi University.">
+    <title>Latif Chilala | ICT251 Student Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header id="top" class="site-header">
+        <div class="hero-content">
+            <p class="eyebrow">ICT251 · WEB TECHNOLOGIES</p>
+            <h1>Hi, I'm Latif Chilala</h1>
+            <p class="hero-intro">A Compute science student at Mulungushi University, learning to build useful, accessible and interactive websites.</p>
+            <a class="button-link" href="#projects">View My Projects &amp; Skills</a>
+        </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#projects">Projects &amp; Skills</a>
+        <a href="#contact">Contact</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false">Switch to dark theme</button>
+    </nav>
+
+    <main id="main-content">
+        <section id="about" class="content-section about-section">
+            <p class="section-kicker">A little about me</p>
+            <h2>About Me</h2>
+            <p>
+                My name is Latif Chilala, and I am a Compute science student at Mulungushi University.
+                I am interested in web designing because I enjoy creating attractive and interactive
+                websites. Through Web Technologies, I am learning how HTML organizes content, how CSS
+                improves the appearance of a page, and how JavaScript makes a website respond to people.
+                Outside my studies, I enjoy playing football, playing video games and listening to music.
+                I want to keep practising, solve problems creatively, and use my technology skills to
+                build helpful digital projects.
+            </p>
+        </section>
+
+        <section id="hobbies" class="content-section">
+            <p class="section-kicker">What I enjoy</p>
+            <h2>My Hobbies</h2>
+            <div class="hobby-grid">
+                <article class="hobby-card">
+                    <h3>Football</h3>
+                    <p>Playing football helps me stay active and enjoy teamwork.</p>
+                </article>
+                <article class="hobby-card">
+                    <h3>Video games</h3>
+                    <p>Video games help me relax and enjoy challenges.</p>
+                </article>
+                <article class="hobby-card">
+                    <h3>Listening to music</h3>
+                    <p>Music helps me relax and enjoy my free time.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="learning" class="content-section">
+            <p class="section-kicker">My goals</p>
+            <h2>My Learning Plan</h2>
+            <p>These are three important steps I will take to improve my web development skills:</p>
+            <ol class="learning-steps">
+                <li>Practise writing well-structured HTML pages regularly.</li>
+                <li>Learn CSS layouts, the box model and responsive design.</li>
+                <li>Build small projects and use JavaScript to make them interactive.</li>
+            </ol>
+
+            <div class="table-wrap">
+                <table>
+                    <caption>My Weekly Web Learning Plan</caption>
+                    <thead>
+                        <tr><th scope="col">Day</th><th scope="col">Topic</th><th scope="col">Practice task</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Monday</td><td>HTML</td><td>Create and structure a webpage.</td></tr>
+                        <tr><td>Wednesday</td><td>CSS</td><td>Style a webpage and practise the box model.</td></tr>
+                        <tr><td>Friday</td><td>Responsive design</td><td>Test a webpage on a narrow phone screen.</td></tr>
+                        <tr><td>Saturday</td><td>JavaScript</td><td>Build and review a small interactive feature.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="photos" class="content-section">
+            <p class="section-kicker">Gallery</p>
+            <h2>My Photos</h2>
+            <p>These photos are part of my personal gallery.</p>
+            <div class="gallery-viewer">
+                <figure class="gallery-feature">
+                    <img id="gallery-image" src="images/photo1.jpeg" alt="Latif taking a mirror photo at the gym">
+                    <figcaption id="gallery-caption">Photo 1 of 3 — At the gym</figcaption>
+                </figure>
+                <div class="gallery-controls" aria-label="Photo gallery controls">
+                    <button type="button" id="gallery-prev">Previous photo</button>
+                    <p id="gallery-count" aria-live="polite">1 / 3</p>
+                    <button type="button" id="gallery-next">Next photo</button>
+                </div>
+            </div>
+            <noscript><p>The gallery viewer needs JavaScript. All three photos are also listed below.</p></noscript>
+            <div class="gallery-thumbnails" aria-label="All gallery photos">
+                <figure>
+                    <img src="images/photo1.jpeg" alt="Latif taking a mirror photo at the gym">
+                    <figcaption>personal</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo2.jpeg" alt="Latif taking a mirror selfie wearing a white vest">
+                    <figcaption>school life</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo3.jpeg" alt="Latif taking another seated mirror selfie">
+                    <figcaption>sport</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="media" class="content-section">
+            <p class="section-kicker">Watch and listen</p>
+            <h2>My Media</h2>
+            <h3>My Self-Introduction Video</h3>
+            <p>This short video is included as part of my personal student website.</p>
+            <video class="media-player" controls preload="metadata">
+                <source src="videos/my-introduction.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <p class="media-summary"><strong>Written summary:</strong> My name is Latif Chilala. I am a Compute science student at Mulungushi University. I am learning web technologies and hope to improve my HTML, CSS and web development skills.</p>
+
+            <h3>My Audio Clip</h3>
+            <p>This recording is included as part of my website's audio media.</p>
+            <audio class="media-player" controls preload="metadata">
+                <source src="audio/audio.mp4" type="audio/mp4">
+                Your browser does not support the audio element.
+            </audio>
+            <p class="media-summary"><strong>Recording description:</strong> This is the audio file supplied with my Activity 2 website.</p>
+        </section>
+
+        <section id="projects" class="content-section">
+            <p class="section-kicker">What I'm learning</p>
+            <h2>Projects &amp; Skills</h2>
+            <p>Use the search box to filter the skills and practice projects listed below.</p>
+            <div class="filter-controls">
+                <label for="project-search">Search projects or skills</label>
+                <div class="search-row">
+                    <input type="search" id="project-search" placeholder="Try HTML, CSS or JavaScript">
+                    <button type="button" id="project-reset" class="button-secondary">Reset</button>
+                </div>
+            </div>
+            <p id="filter-status" class="status-message" aria-live="polite">Showing all 3 projects and skills.</p>
+            <div id="project-list" class="project-grid">
+                <article class="project-card" data-search="html webpage structure semantic">
+                    <h3>HTML webpage structure</h3>
+                    <p>Practise using headings, paragraphs, lists, links, images and semantic page sections.</p>
+                    <span class="skill-tag">HTML</span>
+                </article>
+                <article class="project-card" data-search="css styling responsive box model layout">
+                    <h3>Responsive page styling</h3>
+                    <p>Use CSS colours, spacing, borders, the box model and media queries to style a page.</p>
+                    <span class="skill-tag">CSS</span>
+                </article>
+                <article class="project-card" data-search="javascript interaction events dom validation">
+                    <h3>Interactive website features</h3>
+                    <p>Use JavaScript events and DOM updates to validate a form and add interactive controls.</p>
+                    <span class="skill-tag">JavaScript</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <p class="section-kicker">Get in touch</p>
+            <h2>Contact</h2>
+            <p>This is a browser demonstration only — no message is sent or stored on a server.</p>
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+                    <small id="name-error" class="field-error"></small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+                    <small id="email-error" class="field-error"></small>
+                </div>
+                <div class="form-group">
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic">
+                        <option value="Web Development">Web Development</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="General">General</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message <span aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+                    <small id="message-error" class="field-error"></small>
+                </div>
+                <button type="submit">Validate and preview</button>
+                <p id="form-status" class="status-message" role="status" aria-live="polite"></p>
+                <section id="form-preview" class="form-preview" hidden aria-labelledby="preview-heading">
+                    <h3 id="preview-heading">Validated form preview</h3>
+                    <p>Your data was validated in this browser. No message was delivered.</p>
+                    <dl>
+                        <dt>Name</dt><dd id="preview-name"></dd>
+                        <dt>Email</dt><dd id="preview-email"></dd>
+                        <dt>Topic</dt><dd id="preview-topic"></dd>
+                        <dt>Message</dt><dd id="preview-message"></dd>
+                    </dl>
+                </section>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Latif Chilala · ICT251 Web Technologies · Mulungushi University</p>
+        <p><a href="#top">Back to top</a> · <a href="https://github.com/" target="_blank" rel="noopener noreferrer">View Source on GitHub (add your repository URL before submission)</a></p>
+    </footer>
+</body>
+</html>
